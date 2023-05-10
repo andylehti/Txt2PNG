@@ -1,5 +1,5 @@
 # Txt2PNG (t2p)
-Txt2PNG is exactly what it sounds like; it can compress text files or code into images, and it can decompress those images back into identical text files.
+Txt2PNG is exactly what it sounds like; it is text to png; it can compress text files or code into images, and it can decompress those images back into identical text files.
 ## Description
 
 This is a Python script that can be used to compress and decompress files using images. The script uses the PIL (Python Imaging Library) module to convert the file data to an image and back to the original data.
