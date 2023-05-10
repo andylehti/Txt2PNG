@@ -1,4 +1,4 @@
-# Txt2PNG
+# Txt2PNG (t2p)
 Txt2PNG is exactly what it sounds like; it can compress text files or code into images, and it can decompress those images back into identical text files.
 ## Description
 
@@ -31,13 +31,13 @@ The `__main__` block of the script prompts the user for input to determine wheth
 Here's an example of how to use the script to compress and decompress a file:
 
 ```
-$ python image_compression.py
+$ python t2p.py
 Enter 'c' to compress or 'd' to decompress: c
 Enter input file path: test_file.txt
 Enter output file path: test_file.png
 File compressed successfully. Image saved as test_file.png
 
-$ python image_compression.py
+$ python t2p.py
 Enter 'c' to compress or 'd' to decompress: d
 Enter input file path: test_file.png
 Enter output file path: test_file_decompressed.txt
